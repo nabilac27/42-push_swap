@@ -22,6 +22,23 @@ The [Turk Algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97) minimize
 - Sorting the larger half of the stack.
 - Merging the stacks back together.
 
+## How to Run
+
+To run the project, follow these steps:
+
+1. Compile the program with `make`.
+2. Run the executable with your desired input (e.g., `./push_swap 3 2 1`).
+3. For bonus features, make sure to compile and include `push_swap_v2`.
+4. You can also compare your results using `pipe to checker_Mac`.
+
+### Example
+
+```bash
+$ make
+$ ./push_swap 3 2 1
+$ ./push_swap_v2 5 3 7 4 2 1
+$ ./push_swap 5 3 7 4 2 1 | ./checker_Mac
+
 ---
 
 ### Function Overview
