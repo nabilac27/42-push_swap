@@ -1,4 +1,4 @@
-# **Push_swap**
+# **push_swap**
 
 The **Push_swap** project sorts a list of integers using only **push**, **swap**, **rotate**, and **reverse rotate** operations. 
 
