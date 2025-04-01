@@ -22,7 +22,7 @@ The [Turk Algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97) minimize
 - Sorting the larger half of the stack.
 - Merging the stacks back together.
 
-## How to Run
+### How to Run
 
 To run the project, follow these steps:
 
