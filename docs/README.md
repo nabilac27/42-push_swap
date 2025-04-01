@@ -1,4 +1,4 @@
-## **Push_swap**
+# **Push_swap**
 
 The **Push_swap** project sorts a list of integers using only **push**, **swap**, **rotate**, and **reverse rotate** operations. 
 
@@ -6,14 +6,14 @@ The goal is to implement an efficient sorting algorithm with a minimal number of
 
 In this implementation, I use the [Turk Algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97) to optimize the sorting process.
 
-### **Key Concepts**
+## **Key Concepts**
 
 - **Push**: Move the top element from one stack to another.
 - **Swap**: Swap the top two elements of a stack.
 - **Rotate**: Shift all elements of the stack up by one position.
 - **Reverse Rotate**: Shift all elements of the stack down by one position.
 
-### **Turk Algorithm Overview**
+## **Turk Algorithm Overview**
 
 The [Turk Algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97) minimizes the number of operations needed to sort the stack. It works by:
 
@@ -22,14 +22,14 @@ The [Turk Algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97) minimize
 - Sorting the larger half of the stack.
 - Merging the stacks back together.
 
-### How to Run
+## How to Run
 
 To run the project, follow these steps:
 
 1. Compile the program with `make`.
 2. Run the executable with your desired input (e.g., `./push_swap 3 2 1`).
 
-### Example
+## Example
 
 ```bash
 $ make
@@ -40,7 +40,7 @@ $ ./push_swap 5 3 7 4 2 1 | ./checker_Mac
 
 ---
 
-### Function Overview
+## Function Overview
 
 | **Step**            | **Function**                      | **Description**                                                                 |
 |---------------------|-----------------------------------|---------------------------------------------------------------------------------|
