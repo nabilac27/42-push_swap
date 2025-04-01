@@ -17,7 +17,7 @@ In this implementation, I use the [Turk Algorithm](https://medium.com/@ayogun/pu
 
 The [Turk Algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97) minimizes the number of operations needed to sort the stack. It works by:
 
-1. Finding the median of the stack.
-2. Partitioning the stack into two parts (larger and smaller than the median).
-3. Sorting the larger half of the stack.
-4. Merging the stacks back together.
+- Finding the median of the stack.
+- Partitioning the stack into two parts (larger and smaller than the median).
+- Sorting the larger half of the stack.
+- Merging the stacks back together.
