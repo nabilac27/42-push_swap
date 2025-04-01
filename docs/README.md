@@ -1,22 +1,23 @@
 # Push_swap Project
 
-The **Push_swap** project is a C program that sorts a list of integers using a series of **push** and **swap** operations. The goal is to implement a sorting algorithm with a limited number of operations and to improve efficiency by minimizing the number of operations needed.
+The **Push_swap** project sorts a list of integers using only **push**, **swap**, **rotate**, and **reverse rotate** operations. 
 
-In this implementation, I am using the **Turk Algorithm** to optimize the sorting process. The Turk Algorithm is a sorting strategy that efficiently organizes the stack with minimal moves by strategically pushing and swapping elements.
+The goal is to implement an efficient sorting algorithm with a minimal number of operations.
+
+In this implementation, I use the [Turk Algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97) to optimize the sorting process.
 
 ## Key Concepts
-- **Push**: Move an element from one stack to another.
+
+- **Push**: Move the top element from one stack to another.
 - **Swap**: Swap the top two elements of a stack.
 - **Rotate**: Shift all elements of the stack up by one position.
 - **Reverse Rotate**: Shift all elements of the stack down by one position.
 
 ## Turk Algorithm Overview
 
-The **Turk Algorithm** is a modified version of traditional sorting algorithms that focuses on efficiency by reducing the number of required operations. Here's a simplified description of the steps it follows:
+The [Turk Algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97) minimizes the number of operations needed to sort the stack. It works by:
 
-1. **Identifying the median**: The algorithm first identifies a median value of the stack and divides the stack into two parts: smaller and larger than the median.
-2. **Partitioning**: Using **push** operations, elements greater than the median are pushed onto a secondary stack, leaving the smaller elements in the original stack.
-3. **Sorting the larger half**: The larger half of the elements is then sorted using a set of **swap**, **rotate**, and **reverse rotate** operations.
-4. **Final merge**: The elements from the secondary stack are moved back into the original stack, ensuring they are sorted.
-
-By doing this, the algorithm minimizes the number of operations needed to sort the stack compared to traditional methods.
+1. Finding the median of the stack.
+2. Partitioning the stack into two parts (larger and smaller than the median).
+3. Sorting the larger half of the stack.
+4. Merging the stacks back together.
