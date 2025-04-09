@@ -45,7 +45,7 @@ $ ./push_swap 5 3 7 4 2 1 | ./checker_Mac
 | **Step**            | **Function**                      | **Description**                                                                 |
 |---------------------|-----------------------------------|---------------------------------------------------------------------------------|
 | **Parsing**         | `check_valid_args`                | Validates the command-line arguments passed to the program.                     |
-|                     | `check_whitespace_str`            | Checks if the string contains any whitespace.                                   |
+|                     | `check_whitespace_str`            | Checks if the string contains only whitespaces.                                   |
 |                     | `get_input_num`                   | Extracts the input numbers from the arguments.                                  |
 |                     | `check_sorted_stack`              | Verifies if the stack is already sorted.                                        |
 | **Fill Stack A**    | `fill_stack_a`                    | Fills the first stack (A) with numbers.                                         |
