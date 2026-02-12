@@ -43,6 +43,7 @@ $ ./push_swap 5 3 7 4 2 1 | ./checker_Mac
 
 ## Folder Structures
 
+```
 push_swap/
 ├── README.md
 │
@@ -78,6 +79,7 @@ push_swap/
 │   └── sort_small.c
 │
 └── Makefile
+```
 
 ---
 
