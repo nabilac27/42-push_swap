@@ -1,3 +1,4 @@
+
 # **push_swap**
 
 The **Push_swap** project sorts a list of integers using only **push**, **swap**, **rotate**, and **reverse rotate** operations. 
@@ -37,6 +38,46 @@ $ ./push_swap 3 2 1
 $ ./push_swap_v2 5 3 7 4 2 1
 $ ./push_swap 5 3 7 4 2 1 | ./checker_Mac
 ```
+
+---
+
+## Folder Structures
+
+push_swap/
+├── README.md
+│
+├── docs/
+│   ├── README.md
+│   └── en.subject.pdf
+│
+├── include/
+│   ├── lib/
+│   │   └── libft.h
+│   └── push_swap.h
+│
+├── src/
+│   ├── main.c
+│
+│   ├── parsing/
+│   │   ├── check_args.c
+│   │   ├── fill_stack_a.c
+│   │   └── utils.c
+│
+│   ├── operation/
+│   │   ├── push.c
+│   │   ├── swap.c
+│   │   ├── rotate.c
+│   │   └── rev_rotate.c
+│
+│   ├── turk/
+│   │   ├── turk.c
+│   │   ├── fill_stacks.c
+│   │   ├── turk_rotates.c
+│   │   └── utils.c
+│
+│   └── sort_small.c
+│
+└── Makefile
 
 ---
 
