@@ -7,13 +7,6 @@ The goal is to implement an efficient sorting algorithm with a minimal number of
 
 In this implementation, I use the [Turk Algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97) to optimize the sorting process.
 
-## **Key Concepts**
-
-- **Push**: Move the top element from one stack to another.
-- **Swap**: Swap the top two elements of a stack.
-- **Rotate**: Shift all elements of the stack up by one position.
-- **Reverse Rotate**: Shift all elements of the stack down by one position.
-
 ## What this project demonstrates
 
 This project focuses on **sorting data efficiently under strict constraints**.
@@ -26,6 +19,13 @@ Only a limited set of operations is allowed (push, swap, rotate, reverse rotate)
 To achieve efficiency, this implementation applies the **Turk Algorithm**, which determines optimal moves, minimizes unnecessary operations, and balances correctness with performance.
 
 Overall, this project demonstrates **algorithmic thinking**, **process optimization under constraints**, and **systematic problem-solving** — skills that are directly applicable to IT-driven business and logistics systems.
+
+## **Key Concepts**
+
+- **Push**: Move the top element from one stack to another.
+- **Swap**: Swap the top two elements of a stack.
+- **Rotate**: Shift all elements of the stack up by one position.
+- **Reverse Rotate**: Shift all elements of the stack down by one position.
 
 ## **Turk Algorithm Overview**
 
