@@ -70,18 +70,15 @@ push_swap/
 │
 ├── src/
 │   ├── main.c
-│
 │   ├── parsing/
 │   │   ├── check_args.c
 │   │   ├── fill_stack_a.c
 │   │   └── utils.c
-│
 │   ├── operation/
 │   │   ├── push.c
 │   │   ├── swap.c
 │   │   ├── rotate.c
 │   │   └── rev_rotate.c
-│
 │   ├── turk/
 │       ├── turk.c
 │       ├── fill_stacks.c
