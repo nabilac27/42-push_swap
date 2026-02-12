@@ -14,6 +14,19 @@ In this implementation, I use the [Turk Algorithm](https://medium.com/@ayogun/pu
 - **Rotate**: Shift all elements of the stack up by one position.
 - **Reverse Rotate**: Shift all elements of the stack down by one position.
 
+## What this project demonstrates
+
+This project focuses on **sorting data efficiently under strict constraints**.
+
+It is based on the concept of a **stack**, a fundamental data structure that follows the **Last In, First Out (LIFO)** principle — similar to a stack of plates, where the last item placed on top is the first one removed.
+
+Using two stacks (**Stack A** and **Stack B**), the program sorts a list of integers **without using standard sorting functions**.  
+Only a limited set of operations is allowed (push, swap, rotate, reverse rotate), which forces a structured and optimized approach instead of brute-force solutions.
+
+To achieve efficiency, this implementation applies the **Turk Algorithm**, which determines optimal moves, minimizes unnecessary operations, and balances correctness with performance.
+
+Overall, this project demonstrates **algorithmic thinking**, **process optimization under constraints**, and **systematic problem-solving** — skills that are directly applicable to IT-driven business and logistics systems.
+
 ## **Turk Algorithm Overview**
 
 The [Turk Algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97) minimizes the number of operations needed to sort the stack. It works by:
