@@ -137,12 +137,12 @@ push_swap/
 
 ## More Detailed How To Run
 
-Compile the program:
+Compile the program
 ```bash
 make
 ```
 
-Run the executable with a list of integers:
+Run the executable with a list of integers
 ```bash
 ./push_swap 3 2 1
 ```
@@ -154,7 +154,7 @@ sa
 rra
 ```
 
-What this output means:
+What this output means
 - sa → swap the top two elements of stack A
 - rra → reverse rotate stack A
 
@@ -168,7 +168,7 @@ $ ./push_swap 5 3 7 4 2 1 | ./checker_Mac
 OK
 ```
 
-Explanation:
+Explanation
 - push_swap outputs a sequence of operations
 - checker_Mac executes these operations on the input
 - OK confirms that the stack is correctly sorted
