@@ -45,7 +45,6 @@ $ ./push_swap 5 3 7 4 2 1 | ./checker_Mac
 
 ```
 push_swap/
-├── README.md
 │
 ├── docs/
 │   ├── README.md
