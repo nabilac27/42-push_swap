@@ -83,12 +83,10 @@ push_swap/
 │   │   └── rev_rotate.c
 │
 │   ├── turk/
-│   │   ├── turk.c
-│   │   ├── fill_stacks.c
-│   │   ├── turk_rotates.c
-│   │   └── utils.c
-│
-│   └── sort_small.c
+│       ├── turk.c
+│       ├── fill_stacks.c
+│       ├── turk_rotates.c
+│       └── utils.c
 │
 └── Makefile
 ```
@@ -139,5 +137,44 @@ push_swap/
 
 ---
 
+
+## More Detailed How To Run
+
+Compile the program:
+```bash
+make
+```
+
+Run the executable with a list of integers:
+```bash
+./push_swap 3 2 1
+```
+
+Example Output
+```bash
+$ ./push_swap 3 2 1
+sa
+rra
+```
+
+What this output means:
+- sa → swap the top two elements of stack A
+- rra → reverse rotate stack A
+
+When these operations are applied in order, the initial input 3 2 1 becomes sorted as 1 2 3.
+
+Verifying the result
+You can verify that the output operations correctly sort the numbers by piping them into the checker program:
+
+```bash
+$ ./push_swap 5 3 7 4 2 1 | ./checker_Mac
+OK
+```
+
+Explanation:
+- push_swap outputs a sequence of operations
+- checker_Mac executes these operations on the input
+- OK confirms that the stack is correctly sorted
+- If the operations are incorrect, the checker will output KO.
 
 
